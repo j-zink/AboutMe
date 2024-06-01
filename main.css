@@ -1,0 +1,112 @@
+table, th, tr {
+   border-spacing: 3;
+   padding: 3;
+   text-align: left;
+   vertical-align: text-top;
+   column-width: 85px;
+   align-self: center;
+   background-color: gainsboro;
+   border-color: black;
+   border-width: 5px;
+}
+
+hr {
+  size: 25px;
+}
+
+th {
+  background-color: lightslategray;
+  color: black;
+}
+
+td {
+   padding: 5px;
+   text-align: left;
+   vertical-align: text-top;
+   column-width: 85px;
+   align-self: center;
+}
+
+tr:nth-child(even) td:nth-child(odd),
+tr:nth-child(odd) td:nth-child(even)
+{
+    background-color: gray;
+}
+
+#red {
+    background-color: red;
+   }
+
+#blue {
+    background-color: blue;
+   }
+
+#green {
+    background-color: green;
+   }
+
+#purple {
+    background: purple;
+}
+
+h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  margin-top: 22.5px;
+  margin-bottom: 10px;
+}
+
+body {
+    background-image: url(back.jpg);
+    background-attachment: fixed;
+}
+
+.background{
+  background-color: beige;
+  margin: 25px;
+  padding-top: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 50px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  box-shadow: inset 0px 0px 15px 20px bisque;
+}
+
+#img {
+    float: right;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    padding: 10px;
+    background-color: lightgray;
+    box-shadow: inset 0px 5px 5px 5px bisque;
+    
+}
+
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
+
+#poem {
+    text-align: center;
+}
+
+#red {
+    background-color: red;
+}
